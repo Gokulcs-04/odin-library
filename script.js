@@ -19,3 +19,4 @@ function addBookToLibrary(title, author, pages, haveRead) {
     myLibrary.push(newBook);
 }
 
+const submitButton = document.querySelector(".submit");

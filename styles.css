@@ -13,6 +13,7 @@
 h1 {
     text-align: center;
     font-size: 4rem; 
+    margin: 0.5em 0;
 }
 
 .main {
@@ -32,6 +33,7 @@ h1 {
 .addBook {
     padding: 2em;
     h2 {
+        font-size: 2rem;
         text-align: center;
         margin-bottom: 1.5em;
     }
@@ -39,6 +41,7 @@ h1 {
 
 form {
     display: flex;
+    font-size: 1.5rem;
     flex-direction: column;
     gap: 1em;
     align-items: center;
@@ -53,13 +56,13 @@ form label, form input, form button{
     
 }
 
-form input:last-of-type{
-    display: inline;
-}
 
 form input {
-    border-radius: 0.5em;
+    width: 100%;
+    border-radius: 1em;
     background-color: gainsboro;
+    padding: 0.2em;
+    font-size: 1.5rem;
 }
 
 button {
@@ -69,4 +72,8 @@ button {
     padding: 0.8em 1em; 
     border-radius: 1.2em; 
     font-weight: 600;
+}
+
+.submit {
+    font-size: 1.2rem;
 }
