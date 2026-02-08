@@ -105,6 +105,7 @@ form input[type="checkbox"] {
     height: 1.5rem;
 }
 
+
 button {
     background-color: red;
     border: none;
@@ -121,7 +122,6 @@ button:hover {
 .submit {
     font-size: 1.2rem;
     background-color: green;
-
 }
 
 .submit:hover {
