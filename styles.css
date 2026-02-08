@@ -10,10 +10,16 @@
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+body {
+    background-color: #F2D5F8;
+}
+
 h1 {
     text-align: center;
     font-size: 4rem; 
-    margin: 0.5em 0;
+    padding: 0.5em;
+    background-color: gainsboro;
 }
 
 .main {
@@ -24,19 +30,47 @@ h1 {
 .library {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5em;
+    padding: 2em;
+    background-color: #F2D5F8;
 }
 
 .card {
-    width: 100px;
+    min-width: 30%;
+    background-color: beige;
+    border-radius: 2em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    h3 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 1.3rem;
+    }
+
+    span {
+        font-style: italic;
+    }
 }
 
 .addBook {
     padding: 2em;
+    margin: 2em 1em;
+    border-radius: 1em;
     h2 {
         font-size: 2rem;
         text-align: center;
         margin-bottom: 1.5em;
     }
+    background-color: white;;
 }
 
 form {
@@ -65,6 +99,12 @@ form input {
     font-size: 1.5rem;
 }
 
+form input[type="checkbox"] {
+    accent-color: green;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 button {
     background-color: red;
     border: none;
@@ -74,6 +114,16 @@ button {
     font-weight: 600;
 }
 
+button:hover {
+    background-color: darkred;
+}
+
 .submit {
     font-size: 1.2rem;
+    background-color: green;
+
+}
+
+.submit:hover {
+    background-color: darkgreen;
 }
