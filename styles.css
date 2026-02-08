@@ -10,3 +10,63 @@
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
+h1 {
+    text-align: center;
+    font-size: 4rem; 
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.library {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+    width: 100px;
+}
+
+.addBook {
+    padding: 2em;
+    h2 {
+        text-align: center;
+        margin-bottom: 1.5em;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+form label {
+    font-weight: 600;
+}
+
+form label, form input, form button{
+    display: block;
+    
+}
+
+form input:last-of-type{
+    display: inline;
+}
+
+form input {
+    border-radius: 0.5em;
+    background-color: gainsboro;
+}
+
+button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 0.8em 1em; 
+    border-radius: 1.2em; 
+    font-weight: 600;
+}
