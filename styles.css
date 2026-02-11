@@ -37,6 +37,7 @@ h1 {
 
 .card {
     min-width: 30%;
+    min-height: 100%;
     background-color: beige;
     border-radius: 2em;
     padding: 1em;
@@ -54,8 +55,8 @@ h1 {
 
     button {
         font-size: 1.3rem;
+        margin-top: 2em;
     }
-
     span {
         font-style: italic;
     }
@@ -79,6 +80,7 @@ form {
     flex-direction: column;
     gap: 1em;
     align-items: center;
+
 }
 
 form label {
@@ -90,6 +92,10 @@ form label, form input, form button{
     
 }
 
+.required {
+    color: rgb(187, 4, 4);
+    font-size: 1.2rem;
+}
 
 form input {
     width: 100%;
