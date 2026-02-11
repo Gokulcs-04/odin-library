@@ -74,7 +74,7 @@ function addCard(book) {
                 <h3 class="title-card">${book.title}</h3>
                 <p class="author-card">Author: <span>${book.author ? book.author : 'Null'}</span></p>
                 <p class="pages-card">Pages: <span>${book.pages ? book.pages : 'Null'}</span></p>
-                <p class="read-card">Read Status: </p><button data-id=${book.id} class="read-button" style="background-color:blue">${book.haveRead === 'haveRead'? 'Read' : 'Add'}</button>
+                <p class="read-card">Read Status: </p><button data-id=${book.id} class="read-button" style="background-color:blue">${book.haveRead === 'haveRead'? 'Read✓' : 'Add'}</button>
                 <button class="remove-button" id=${book.id}>Remove</button>
             </div>`
 }
